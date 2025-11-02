@@ -1,4 +1,13 @@
-# Tech.Care Patient Management System
+# Coalition Technologies Patient Dashboard
+
+**Developer:** Konda Rakeswar Reddy  
+**Contact:** reddykr21@gmail.com
+
+## Description
+
+This project converts the Adobe XD template into a responsive single-page site. 
+It fetches patient data from the Coalition Technologies API and displays information 
+for Jessica Taylor, including a blood pressure chart built using Chart.js.
 
 A React.js application for managing patient information, displaying diagnosis history, and lab results.
 
