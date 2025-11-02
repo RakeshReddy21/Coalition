@@ -1,0 +1,158 @@
+.diagnosis-history {
+  margin-bottom: 32px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.blood-pressure-section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.graph-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.graph-header h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.time-period {
+  font-size: 14px;
+  color: #666;
+}
+
+.chart-container {
+  height: 280px;
+  margin-bottom: 24px;
+  position: relative;
+  padding: 0 8px;
+}
+
+.chart-legends {
+  display: flex;
+  gap: 32px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.legend-color {
+  width: 16px;
+  height: 3px;
+  border-radius: 2px;
+}
+
+.legend-color.systolic {
+  background-color: #EC4899;
+}
+
+.legend-color.diastolic {
+  background-color: #9333EA;
+}
+
+.legend-label {
+  font-size: 14px;
+  color: #666;
+  min-width: 60px;
+}
+
+.legend-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  min-width: 40px;
+}
+
+.legend-status {
+  font-size: 12px;
+  color: #ff9800;
+}
+
+.vital-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.vital-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.vital-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.vital-icon.respiratory {
+  background-color: #e3f2fd;
+  color: #2196F3;
+}
+
+.vital-icon.temperature {
+  background-color: #fff3e0;
+  color: #ff9800;
+}
+
+.vital-icon.heart {
+  background-color: #fce4ec;
+  color: #e91e63;
+}
+
+.vital-info {
+  flex: 1;
+}
+
+.vital-label {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.vital-value {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.vital-status {
+  font-size: 12px;
+  color: #666;
+}
+
+.vital-status.normal {
+  color: #4CAF50;
+}
+
+.vital-status.lower {
+  color: #ff9800;
+}
+

@@ -1,0 +1,49 @@
+.lab-results {
+  margin-bottom: 32px;
+}
+
+.lab-results-list {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.lab-result-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s;
+}
+
+.lab-result-item:last-child {
+  border-bottom: none;
+}
+
+.lab-result-item:hover {
+  background-color: #f9f9f9;
+}
+
+.lab-result-name {
+  font-size: 14px;
+  color: #333;
+}
+
+.download-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.download-button:hover {
+  background-color: #f0f0f0;
+}
+
